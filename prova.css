@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    color: white;
+    font-family: "Playwrite HU", cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+
+header
+{
+    background-color: black;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section1
+{
+    background-image: url(imagens/post-thumbnail-1e81d7eebc14933a6d0c135a2d749180-1170x685.jpg);
+    padding: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    
+}
+.section1 h2{
+    color: white;
+    font-size: 30px;
+}
+.section1 p{
+    font-size: 25px;
+    color: white;
+}
+.section1 button{
+    color: black;
+    border-radius: 10px;
+    width: 180px;
+    padding: 5px;
+    font-size: 25px;
+}
+.section1 button:hover{
+    background-color: rgba(172, 255, 47, 0.596);
+    transition: 0.8s;
+}
+.section2{
+    background-color: gray;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2 button {
+    color: black;
+    border-radius: 10px;
+    width: 180px;
+    padding: 5px;
+    font-size: 25px;
+}
+.section2 button:hover{
+    background-color: rgba(172, 255, 47, 0.596);
+    transition: 0.8s;
+}
